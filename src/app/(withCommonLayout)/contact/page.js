@@ -1,11 +1,10 @@
-import React from 'react';
-
+import styles from "./contact.module.css"
 const ContactPage = () => {
-    return (
-        <div>
-            <h1>This is contact page</h1>
-        </div>
-    );
+  return (
+    <div>
+      <h1 className={styles.text_color}>This is contact page</h1>
+    </div>
+  );
 };
 
 export default ContactPage;
