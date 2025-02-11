@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "brand": "Apple",
+      "model": "MacBook Air M2",
+      "processor": "Apple M2",
+      "ram": "8GB Unified",
+      "storage": "256GB SSD",
+      "gpu": "Apple GPU",
+      "screenSize": "13.6-inch",
+      "price": 1199,
+      "availability": "In Stock",
+      "image": "https://i.ibb.co.com/ZfrMm1G/laptop-593673.jpg"
+    },
+    {
+      "id": 2,
+      "brand": "Dell",
+      "model": "XPS 13 Plus",
+      "processor": "Intel Core i7-1360P",
+      "ram": "16GB LPDDR5",
+      "storage": "512GB SSD",
+      "gpu": "Intel Iris Xe",
+      "screenSize": "13.4-inch",
+      "price": 1499,
+      "availability": "In Stock",
+      "image": "https://i.ibb.co.com/MVGHjGQ/android-app-development-8180855.jpg"
+    },
+    {
+      "id": 3,
+      "brand": "HP",
+      "model": "Spectre x360",
+      "processor": "Intel Core i7-13700U",
+      "ram": "16GB LPDDR5",
+      "storage": "1TB SSD",
+      "gpu": "Intel Iris Xe",
+      "screenSize": "14-inch",
+      "price": 1599,
+      "availability": "Out of Stock",
+      "image": "https://i.ibb.co.com/M51gxbQ/Mac-Book-Pro-14-in-Space-Gray-PDP-Image-Position-1-en-IN.jpg"
+    }
+  ]
+}
