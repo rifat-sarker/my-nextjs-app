@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/shared/Navbar";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -14,7 +15,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.variable}>{children}</body>
+      <body className={inter.variable}>
+        <Navbar />
+        <div className="min-h-screen">{children}</div>
+        <footer className="bg-blue-500 p-4 mt-10">This is footer</footer>
+      </body>
     </html>
   );
 }

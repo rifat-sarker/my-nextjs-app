@@ -1,4 +1,5 @@
 import ProductCard from "@/components/product/ProductCard";
+import Navbar from "@/components/shared/Navbar";
 import Link from "next/link";
 
 export default async function HomePage() {
@@ -18,7 +19,10 @@ export default async function HomePage() {
         ))}
       </div>
       <div className="text-center">
-        <Link className="bg-black text-white rounded-lg border p-2" href="/products">
+        <Link
+          className="bg-black text-white rounded-lg border p-2"
+          href="/products"
+        >
           See more
         </Link>
       </div>
